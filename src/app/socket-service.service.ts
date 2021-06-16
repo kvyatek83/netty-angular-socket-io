@@ -22,7 +22,7 @@ export class SocketService {
     private spinnerService: SpinnerService,
     private alertService: AlertService
   ) {
-    this.socket = io.connect("http://localhost:3030", {
+    this.socket = io.connect("http://localhost:8000", {
       withCredentials: false,
     });
   }
